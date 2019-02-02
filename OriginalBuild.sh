@@ -10,4 +10,4 @@ cp ./Workspace/BuildScripts/Original/build$_BuildNumber.sh ./ralim_build/workspa
 cp -rf ./Workspace/Translations/*.json ./ralim_build/"Translation Editor"/
 cd ralim_build/workspace/TS100
 chmod +x build.sh
-./build.sh
+./build.sh $2 $3
