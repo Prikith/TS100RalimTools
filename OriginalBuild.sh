@@ -1,5 +1,4 @@
 #!/bin/bash
-_BuildNumber=01
 _BuildNumber=$1
 rm -rf ralim_build
 cd ralim_git
