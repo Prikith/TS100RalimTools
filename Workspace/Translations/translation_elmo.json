@@ -1,0 +1,233 @@
+{
+	"languageCode": "ELMO",
+	"languageLocalName": "Elmo",
+	"cyrillicGlyphs": false,
+	"messages": {
+		"SettingsCalibrationDone": "Elmo is ready to dance for he motherland!",
+		"SettingsCalibrationWarning": "Elmo is sad because he is too hot!",
+		"SettingsResetWarning": "do you want to kill and recreate elmo?",
+		"UVLOWarningString": "ELMO LOW",
+		"UndervoltageString": "UnderElmo",
+		"InputVoltageString": "Input Elmo: ",
+		"WarningTipTempString": "Elmo Temp: ",
+		"BadTipString": "BAD ELMO",
+		"SleepingSimpleString": "Elmo will nap",
+		"SleepingAdvancedString": "Elmo is getting sleepy",
+		"WarningSimpleString": "ELMO IS HOT!",
+		"WarningAdvancedString": "!!! ELMO HOT !!!",
+		"SleepingTipAdvancedString": "Elmo Tip:",
+		"IdleTipString": "Elmo Tip:",
+		"IdleSetString": "Elmo Set:",
+		"TipDisconnectedString": "ELMO DISCONNECTED",
+		"SolderingAdvancedPowerPrompt": "Elmo Power: ",
+		"OffString": "🦀 Elmo is gone 🦀"
+	},
+	"characters": {
+		"SettingRightChar": "R",
+		"SettingLeftChar": "L",
+		"SettingAutoChar": "A",
+		"SettingFastChar": "F",
+		"SettingSlowChar": "S"
+	},
+	"menuDouble": true,
+	"menuGroups": {
+		"SolderingMenu": {
+			"text2": [
+				"Elmo",
+				"Settings"
+			],
+			"desc": "Elmo Soldering settings"
+		},
+		"PowerSavingMenu": {
+			"text2": [
+				"Elmo Nap",
+				"Modes"
+			],
+			"desc": "Elmo Power saving settings"
+		},
+		"UIMenu": {
+			"text2": [
+				"Elmo",
+				"Interface"
+			],
+			"desc": "Elmo interface settings"
+		},
+		"AdvancedMenu": {
+			"text2": [
+				"Advanced Elmo",
+				"Options"
+			],
+			"desc": "Advanced Elmo options"
+		}
+	},
+	"menuOptions": {
+		"PowerSource": {
+			"text": "PWRSC",
+			"text2": [
+				"Power",
+				"source"
+			],
+			"desc": "Power source. Sets cutoff voltage. <DC 10V> <S 3.3V per cell>"
+		},
+		"SleepTemperature": {
+			"text": "STMP",
+			"text2": [
+				"Nap",
+				"temp"
+			],
+			"desc": "Sleep Temperature <C>"
+		},
+		"SleepTimeout": {
+			"text": "STME",
+			"text2": [
+				"Elmo Nap",
+				"timeout"
+			],
+			"desc": "Sleep Timeout <Minutes/Seconds>"
+		},
+		"ShutdownTimeout": {
+			"text": "SHTME",
+			"text2": [
+				"Elmo Killswitch",
+				"timeout"
+			],
+			"desc": "Shutdown Timeout <Minutes>"
+		},
+		"MotionSensitivity": {
+			"text": "MSENSE",
+			"text2": [
+				"Elmo",
+				"sensitivity"
+			],
+			"desc": "Motion Sensitivity <0.Off 1.least sensitive 9.most sensitive>"
+		},
+		"TemperatureUnit": {
+			"text": "TMPUNT",
+			"text2": [
+				"Elmo Hot",
+				"units"
+			],
+			"desc": "Temperature Unit <C=Celsius F=Fahrenheit>"
+		},
+		"AdvancedIdle": {
+			"text": "ADVIDL",
+			"text2": [
+				"Detailed Elmo",
+				"idle screen"
+			],
+			"desc": "Display detailed information in a smaller font on the idle screen."
+		},
+		"DisplayRotation": {
+			"text": "DSPROT",
+			"text2": [
+				"Elmo",
+				"orientation"
+			],
+			"desc": "Display Orientation <A. Automatic L. Left Handed R. Right Handed>"
+		},
+		"BoostEnabled": {
+			"text": "BOOST",
+			"text2": [
+				"Extreme Elmo Mode",
+				"enabled"
+			],
+			"desc": "Enable front key enters boost mode 450C mode when soldering"
+		},
+		"BoostTemperature": {
+			"text": "BTMP",
+			"text2": [
+				"Extreme Elmo",
+				"temp"
+			],
+			"desc": "Temperature when in \"boost\" mode"
+		},
+		"AutoStart": {
+			"text": "ASTART",
+			"text2": [
+				"Auto Elmo",
+				"start"
+			],
+			"desc": "Automatically starts the iron into soldering on power up. T=Soldering, S= Sleep mode,F=Off"
+		},
+		"CooldownBlink": {
+			"text": "CLBLNK",
+			"text2": [
+				"Elmo Cooldown",
+				"blink"
+			],
+			"desc": "Blink the temperature on the cooling screen while the tip is still hot."
+		},
+		"TemperatureCalibration": {
+			"text": "TMP CAL?",
+			"text2": [
+				"Elmo Calibrate",
+				"temperature?"
+			],
+			"desc": "Calibrate tip offset."
+		},
+		"SettingsReset": {
+			"text": "RESET?",
+			"text2": [
+				"Elmo Factory",
+				"Reset?"
+			],
+			"desc": "Reset all settings"
+		},
+		"VoltageCalibration": {
+			"text": "CAL VIN?",
+			"text2": [
+				"Elmo Calibrate",
+				"input voltage?"
+			],
+			"desc": "VIN Calibration. Buttons adjust, long press to exit"
+		},
+		"AdvancedSoldering": {
+			"text": "ADVSLD",
+			"text2": [
+				"Elmo Detailed",
+				"solder screen"
+			],
+			"desc": "Display detailed information while soldering"
+		},
+		"ScrollingSpeed": {
+			"text": "DESCSP",
+			"text2": [
+				"Elmo Scrolling",
+				"Speed"
+			],
+			"desc": "Speed this text scrolls past at"
+		},
+		"TipModel": {
+			"text": "TIPMO",
+			"text2": [
+				"Elmo Tip",
+				"Model"
+			],
+			"desc": "Tip Model selection"
+		},
+		"SimpleCalibrationMode": {
+			"text": "SMPCAL",
+			"text2": [
+				"Elmo Simple",
+				"Calibration"
+			],
+			"desc": "Simple Calibration using Hot water"
+		},
+		"AdvancedCalibrationMode": {
+			"text": "ADVCAL",
+			"text2": [
+				"Elmo Advanced",
+				"Calibration"
+			],
+			"desc": "Advanced calibration using thermocouple on the tip"
+		},
+		"PowerInput": {
+			"text": "PWRW",
+			"text2": [
+				"Elmo Power",
+				"Wattage"
+			],
+			"desc": "Power Wattage of the power adapter used"
+		}
+	}
+}
