@@ -11,4 +11,4 @@ cp ./Workspace/BuildScripts/Custom/build$_BuildNumber.sh ./ralim_custom/workspac
 cp -rf ./Workspace/Translations/*.json ./ralim_custom/"Translation Editor"/
 cd ralim_custom/workspace/TS100
 chmod +x build.sh
-./build.sh $2 $3
+./build.sh $2
