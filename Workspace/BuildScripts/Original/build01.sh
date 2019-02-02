@@ -11,7 +11,6 @@ BUILD_MODELS=()
 TIMESTAMP=`date "+%Y%m%d-%H%M%S"`
 BUILDDIR=Hexfile
 BUILDLEVEL=Original
-OUTPUTDIR=Output
 
 usage ()
 {
@@ -158,5 +157,5 @@ else
 fi
 echo " -- Firmwares successfully generated --"
 echo "Moving Build Folder"
-mv $BUILDDIR ../../../$OUTPUTDIR/$BUILDLEVEL/$BUILDDIR-$TIMESTAMP
+mv $BUILDDIR ../../../Workspace/Output/$BUILDLEVEL/$BUILDDIR-$TIMESTAMP
 echo "End..."
